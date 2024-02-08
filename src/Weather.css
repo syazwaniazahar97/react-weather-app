@@ -1,0 +1,16 @@
+.Weather {
+  border: 1 px solid #f8f8bc;
+}
+
+.search {
+    text-align: center;
+}
+
+.search-input {
+  width: 550px;
+  margin-right: 3px;
+}
+
+.search-button {
+  width: 100px;
+}
