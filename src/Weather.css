@@ -1,5 +1,13 @@
 .Weather {
   border: 1 px solid #f8f8bc;
+  padding: 16px;
+  margin: 30px auto;
+  max-width: 600px;
+  border-radius: 4px;
+}
+
+h1 {
+  margin: 10px 0 0 0;
 }
 
 .search {
@@ -7,10 +15,37 @@
 }
 
 .search-input {
-  width: 550px;
+  width: 460px;
   margin-right: 3px;
 }
 
 .search-button {
   width: 100px;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+    list-style: none;
+    line-height: 22px;
+}
+
+.Weather .temperature {
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.Weather .unit {
+  font-size: 20px;
+  position: relative;
+  top: -22px;
+}
+
+.Weather .image {
+  height: 65px;
+  position: relative;
+  top: -13px;
 }
