@@ -19,6 +19,7 @@ export default function Weather(props) {
       icon: response.data.weather[0].icon,
       description: response.data.weather[0].description,
       date: new Date(response.data.dt * 1000),
+      coordinates: response.data.coord
     });
     setReady(true);
   }
@@ -52,7 +53,7 @@ export default function Weather(props) {
           <input type="submit" placeholder="Search" className="search-button" />
         </form>
         <WeatherInfo data={weatherData} />
-        <WeatherForecast />
+        <WeatherForecast coordinates={weatherData.coordinates}/>
       </div>
     );
   } else {
