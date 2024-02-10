@@ -36,16 +36,17 @@ h1 {
 .Weather .temperature {
   font-weight: 500;
   font-size: 50px;
+  position: relative;
+  top: -10px;
+  margin-left: 10px;
 }
 
 .Weather .unit {
   font-size: 20px;
   position: relative;
-  top: -22px;
 }
 
-.Weather .image {
-  height: 65px;
+.Weather canvas {
+  margin: 8px 0 0 0;
   position: relative;
-  top: -13px;
 }
